@@ -1,0 +1,68 @@
+/* LAYOUT PARTE ALTA */
+header      {
+              text-align: center;
+              color: #00FF00;
+            }
+
+/* IMMAGINE SFONDO */
+body        {
+              background-image: url(background.jpg);
+              background-size: cover;
+            }
+
+/* COLORE SCRITTE DATI MONOPATTINI */
+section     { color: white; }
+
+/* INLINE BLOCK NOME MONOPATTINO */
+h3          { display: inline-block; }
+
+/* BACKGROUND NERO TRASPARENTE */
+.background {
+              margin-top: 50px;
+              margin-bottom: 150px;
+              margin-left: 200px;
+              margin-right: 200px;
+              background-color: rgba(0, 0, 0, 0.5);
+              padding:30px;
+              font-family: -webkit-pictograph;
+              border-radius: 3%;
+            }
+
+/* DIMENSIONI LOGO */
+.imgsize    {
+              width: 150px;
+              height: 70px;
+            }
+
+/* LAYOUT BARRA DI SELEZIONE */
+.nav        {
+              background-color: #00FF00;
+              width:100%;
+              margin: auto;
+              text-align: center;
+              padding: 10px
+            }
+
+/* LAYOUT BATTERIA 1 */
+.battery1   {
+              width: 250px;
+              height: 40px;
+              background-color: yellow;
+              border-radius: 10%;
+            }
+
+/* LAYOUT BATTERIA 2 */
+.battery2   {
+              width: 550px;
+              height: 40px;
+              background-color: green;
+              border-radius: 10%;
+            }
+
+/*LAYOUT BATTERIA 3 */
+.battery3   {
+              width: 150px;
+              background-color: darkred;
+              height: 40px;
+              border-radius: 10%;
+            }
